@@ -7,7 +7,7 @@ from github import Github, GithubException
 # --- KONFIGURASI ---
 GITHUB_TOKEN = os.getenv('GITHUB_PAT')  # Ambil dari environment variable
 SOURCE_URL   = "https://raw.githubusercontent.com/SomchaiTeerapat/-/refs/heads/main/%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B9%80%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%B1%E0%B9%89%E0%B8%99%20%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B8%94%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%B3%E0%B8%AA%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B9%83%E0%B8%94%E0%B8%81%E0%B9%87%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%89%E0%B8%B1%E0%B8%99%E0%B9%82%E0%B8%9E%E0%B8%AA%E0%B8%95%E0%B9%8C%E0%B9%84%E0%B8%9B%E0%B9%83%E0%B8%8A%E0%B9%89?token=GHSAT0AAAAAADUIYMCWUQSARPQHJBUBWTTW2L2SP3A"
-DEST_REPO    = "uppermoon77/Sathaporn"   # Format: "username/repository"
+DEST_REPO    = "DawSathaporn/Sathaporn"   # Format: "username/repository"
 GIT_BRANCH   = "main"
 COMMIT_MSG   = "Auto update: Sync playlist from source + footer update"
 SLEEP_BETWEEN_COMMITS_SEC = 0.7         # jeda antar commit
