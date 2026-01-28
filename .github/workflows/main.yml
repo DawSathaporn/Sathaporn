@@ -9,7 +9,7 @@ on:
   # opsional: jalan setiap ada perubahan pada script
   push:
     paths:
-      - "update_github_file.py"
+      - "GENJAN2027.py"
 
 permissions:
   contents: write  # perlu untuk commit ke repo
@@ -36,4 +36,4 @@ jobs:
           # pakai token bawaan Actions, disalurkan ke variabel yang skrip kamu baca
           GITHUB_PAT: ${{ github.token }}
         run: |
-          python update_github_file.py
+          python GENJAN2027.py
